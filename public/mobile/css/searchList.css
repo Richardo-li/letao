@@ -21,10 +21,20 @@ header .lt_header_lt span {
 .active {
   color: red;
 }
+#refreshContainer {
+  background: white;
+  margin-bottom: 45px;
+}
+.mui-pull-top-pocket {
+  top: 50px;
+}
 .mui-pull-bottom-pocket {
   position: relative;
-  bottom: 50px;
+  bottom: 0px;
   height: 40px;
+}
+.mui-table-view {
+  margin-top: 55px;
 }
 .lt_view {
   margin-bottom: 50px;
@@ -58,12 +68,6 @@ header .lt_header_lt span {
   background: #006699;
   color: white;
   font-size: 16px;
-}
-.lt_view #refreshContainer {
-  background: white;
-}
-.lt_view .mui-pull-top-pocket {
-  top: 50px;
 }
 .lt_view .sort_bar {
   width: 100%;
@@ -114,8 +118,5 @@ header .lt_header_lt span {
   color: #888888;
   /* 中划线 */
   text-decoration: line-through;
-}
-footer {
-  z-index: 5;
 }
 /*# sourceMappingURL=./searchList.css.map */
