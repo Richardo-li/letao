@@ -1,0 +1,121 @@
+html,
+body {
+  background: white;
+}
+header {
+  height: 45px;
+  z-index: 5;
+}
+header h2 {
+  margin-top: 8px;
+  font-size: 18px;
+}
+header .lt_header_lt {
+  float: left;
+}
+header .lt_header_lt span {
+  width: 18px;
+  height: 18px;
+  color: white;
+}
+.active {
+  color: red;
+}
+.mui-pull-bottom-pocket {
+  position: relative;
+  bottom: 50px;
+  height: 40px;
+}
+.lt_view {
+  margin-bottom: 50px;
+}
+.lt_view form {
+  width: 100%;
+  margin-top: 15px;
+  padding: 0 10px;
+}
+.lt_view form .search_text {
+  float: left;
+  width: 80%;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 0;
+  border: 1px solid #006699;
+}
+.lt_view form .search_btn {
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  display: block;
+  float: left;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #006699;
+  color: white;
+  font-size: 16px;
+}
+.lt_view #refreshContainer {
+  background: white;
+}
+.lt_view .mui-pull-top-pocket {
+  top: 50px;
+}
+.lt_view .sort_bar {
+  width: 100%;
+  clear: both;
+  background: #e2e2e2;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+.lt_view .sort_bar a {
+  display: block;
+  width: 25%;
+  float: left;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}
+.lt_view .sort_bar a span {
+  color: inherit;
+  font-size: 12px;
+}
+.lt_view .lt_product_list .product_item {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  text-align: center;
+}
+.lt_view .lt_product_list .product_item .product_in_item {
+  border: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.lt_view .lt_product_list .product_item .product_in_item img {
+  display: block;
+  width: 100%;
+}
+.lt_view .lt_product_list .product_item .product_in_item p.pro_info {
+  padding: 0 10px;
+  height: 40px;
+  overflow: hidden;
+  text-align: left;
+}
+.lt_view .lt_product_list .product_item .product_in_item p.pro_price {
+  font-size: 12px;
+}
+.lt_view .lt_product_list .product_item .product_in_item p.pro_price .new_price {
+  color: red;
+}
+.lt_view .lt_product_list .product_item .product_in_item p.pro_price .old_price {
+  color: #888888;
+  /* 中划线 */
+  text-decoration: line-through;
+}
+footer {
+  z-index: 5;
+}
+/*# sourceMappingURL=./searchList.css.map */
