@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./asset/mui/css/mui.css">
     <link rel="stylesheet" href="./asset/fontAwesome/css/font-awesome.css">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <!-- <link rel="stylesheet" href="./css/index.less"> -->
 </head>
 
 <body>
@@ -18,27 +19,32 @@
             <a class="lt_header_lt" href="javascript:history.back();">
                 <span class="icon_back fa fa-arrow-left"></span>
             </a>
-            搜索中心
+
+            登录
         </h2>
     </header>
     <div class="lt_view">
+        <div class="lt_form">
+            <form class="mui-input-group">
+                <div class="mui-input-row">
+                    <input name="username" type="text" class="mui-input-clear userTxt " placeholder="请输入用户名">
+                </div>
+                <div class="mui-input-row">
+                    <input name="password" type="password" class="mui-input-password pwdTxt" placeholder="请输入密码">
+                </div>
+                <div class="mui-button-row">
+                    <button type="button" class="mui-btn mui-btn-primary loginBtn">登录</button>
+                </div>
 
-        <form class="mui-clearfix">
-            <input type="text" placeholder="搜索你喜欢的商品" class="search_text">
-            <span class="search_btn">搜索</span>
-        </form>
-
-        <span class="search_history">搜索历史</span>
-        <span class="clear_history clearAll"><span class=" icon_clear fa fa-trash"></span>清空记录</span>
-
-        <div class="search_his_box mui-clearfix">
-
+                <a href="javascript:;" class="mui-pull-right">注册</a>
+            </form>
         </div>
 
-
     </div>
+
+
     <footer>
-        <a class="active" href="index.html">
+        <a class="" href="index.html">
             <span class="mui-icon mui-icon-home"></span>
             <p>首页</p>
         </a>
@@ -59,7 +65,7 @@
 <script src="./asset/mui/js/mui.js"></script>
 <script src="./asset/zepto/zepto.min.js"></script>
 <script src="./js/common.js"></script>
-<script src="./js/search.js"></script>
+<script src="./js/login.js"></script>
 
 </html>
 
