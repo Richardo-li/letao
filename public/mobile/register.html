@@ -9,42 +9,45 @@
     <link rel="stylesheet" href="./asset/mui/css/mui.css">
     <link rel="stylesheet" href="./asset/fontAwesome/css/font-awesome.css">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/register.css">
     <!-- <link rel="stylesheet" href="./css/index.less"> -->
 </head>
 
 <body>
     <header>
         <h2>
-            <a class="lt_header_lt" href="javascript:history.back();">
-                <span class="icon_back fa fa-arrow-left"></span>
+            <a class="lt_header_lf" href="javascript:history.back();">
+                <span class="fa fa-arrow-left"></span>
             </a>
-
-            登录
+            注册
         </h2>
     </header>
     <div class="lt_view">
         <div class="lt_form">
             <form class="mui-input-group">
                 <div class="mui-input-row">
-                    <input name="username" type="text" class="mui-input-clear userTxt " placeholder="请输入用户名">
+                    <input name="mobile" value="15912346666" type="text" class="mui-input-clear mobile " placeholder="手机号">
                 </div>
                 <div class="mui-input-row">
-                    <input name="password" type="password" class="mui-input-password pwdTxt" placeholder="请输入密码">
+                    <input name="password" value="123456" type="password" class="mui-input-password password" placeholder="密码">
+                </div>
+                <div class="mui-input-row">
+                    <input name="password2" value="123456" type="password" class="mui-input-password password2" placeholder="确认密码">
+                </div>
+                <div class="mui-input-row">
+                    <input name="vCode" type="text" class="mui-input vCode " placeholder="认证码">
+                    <!-- button按钮如果放在form表单里面 需要加上type=button 否则 默认就触发了提交  -->
+                    <button type="button" class="mui-btn mui-btn-primary getCodeBtn ">获取认证码</button>
                 </div>
                 <div class="mui-button-row">
-                    <button type="button" class="mui-btn mui-btn-primary loginBtn">登录</button>
+                    <button type="button" class="mui-btn mui-btn-primary registerBtn">注册</button>
                 </div>
 
-                <a href="./register.html" class="mui-pull-right">注册</a>
             </form>
         </div>
-
     </div>
-
-
     <footer>
-        <a class="" href="index.html">
+        <a class="active" href="index.html">
             <span class="mui-icon mui-icon-home"></span>
             <p>首页</p>
         </a>
@@ -65,7 +68,7 @@
 <script src="./asset/mui/js/mui.js"></script>
 <script src="./asset/zepto/zepto.min.js"></script>
 <script src="./js/common.js"></script>
-<script src="./js/login.js"></script>
+<script src="./js/register.js"></script>
 
 </html>
 

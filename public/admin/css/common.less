@@ -1,0 +1,102 @@
+html,body{
+   height: 100%;
+   width: 100%;
+   background: #979494;
+}  
+
+.lt_view{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-left: 180px;
+  overflow: hidden;
+  .left_menu{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(34, 45, 50);
+    width: 180px;
+    height: 100%;
+    .logo{
+      display: block;
+      height: 50px;
+      width: 100%;
+      background: rgb(54, 127, 169);
+      margin: 0;
+      color:white;
+      font-size: 24px; 
+      line-height: 50px;
+      text-align: center;
+    }
+    .lt_admin{
+      width: 100%;
+      height: 100px;
+      padding: 20px 17px;
+      img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      span{
+        color:rgb(197, 197, 197);
+      }
+    }
+    .menu_list{
+        width: 100%;
+        ul{
+          padding: 0;
+          li{
+            width: 100%;
+            height: 45px;
+            text-align: center;
+            line-height: 45px;
+            a{
+                color:rgb(197, 197, 197);
+                text-decoration: none;
+                span{
+                  margin-right: 6px;
+                }
+            }
+          }
+          .active{
+            background: rgb(41, 55, 61);
+            border-left:3px solid rgb(238, 151, 0);
+          }
+        }
+
+    }
+  }
+  .right_cont{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: rgb(99, 34, 29);
+    .lt_top_nav{
+      width: 100%;
+      height: 50px;
+      background: rgb(60, 141, 188);
+      padding: 12px;
+      span{
+        cursor: pointer;
+        color:white;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+
+.modal-dialog{
+  width: 300px;
+}
+
+ .p0{
+   padding-left: 0;
+ }  
+ .p0 .left_menu{
+   display: none;
+ }
+
+
+

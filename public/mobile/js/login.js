@@ -27,9 +27,12 @@ $(function() {
                 // console.log(res);
                 if (res.success) {
                     // 登录成功后
-
-                    location.href = getURLParams("returnUrl");
-
+                    if (getURLParams("returnUrl")) {
+                        location.href = getURLParams("returnUrl");
+                    } else {
+                        // 跳回首页
+                        location.href = "index.html";
+                    }
 
                 } else {
                     mui.toast('用户名或账户错误，请重新输入');
